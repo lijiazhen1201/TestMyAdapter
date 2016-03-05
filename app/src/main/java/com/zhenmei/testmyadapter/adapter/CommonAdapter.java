@@ -50,6 +50,14 @@ public abstract class CommonAdapter<T> extends BaseAdapter {
     }
 
     /**
+     * 设置数据源
+     * @param list
+     */
+    public void setList(List<T> list) {
+        this.list = list;
+    }
+
+    /**
      * item的数量
      *
      * @return
